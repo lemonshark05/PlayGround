@@ -10,11 +10,3 @@ import Foundation
 enum Player {
     case human, computer
 }
-struct Move {
-    let player: Player
-    let broadIndex: Int
-    
-    var indicator: String {
-        return player == .human ? "xmark":"circle"
-    }
-}
