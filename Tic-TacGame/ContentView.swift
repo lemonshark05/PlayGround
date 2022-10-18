@@ -94,15 +94,6 @@ struct ContentView: View {
     }
 }
 
-struct Move {
-    let player: Player
-    let broadIndex: Int
-    
-    var indicator: String {
-        return player == .human ? "xmark":"circle"
-    }
-}
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
