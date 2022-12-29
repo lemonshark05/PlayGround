@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9485C26295D5D8A0094FF28 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9485C25295D5D8A0094FF28 /* Alerts.swift */; };
 		D9D68F1928FD3FC700F062D0 /* Tic_TacGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D68F1828FD3FC700F062D0 /* Tic_TacGameApp.swift */; };
 		D9D68F1B28FD3FC700F062D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D68F1A28FD3FC700F062D0 /* ContentView.swift */; };
 		D9D68F1D28FD3FC700F062D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9D68F1C28FD3FC700F062D0 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D9485C25295D5D8A0094FF28 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 		D9D68F1528FD3FC700F062D0 /* Tic-TacGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tic-TacGame.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D68F1828FD3FC700F062D0 /* Tic_TacGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_TacGameApp.swift; sourceTree = "<group>"; };
 		D9D68F1A28FD3FC700F062D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 				D9D68F1828FD3FC700F062D0 /* Tic_TacGameApp.swift */,
 				D9D68F1A28FD3FC700F062D0 /* ContentView.swift */,
 				D9D68F2628FD433D00F062D0 /* Elements.swift */,
+				D9485C25295D5D8A0094FF28 /* Alerts.swift */,
 				D9D68F1C28FD3FC700F062D0 /* Assets.xcassets */,
 				D9D68F1E28FD3FC700F062D0 /* Preview Content */,
 			);
@@ -142,6 +145,7 @@
 			files = (
 				D9D68F1B28FD3FC700F062D0 /* ContentView.swift in Sources */,
 				D9D68F1928FD3FC700F062D0 /* Tic_TacGameApp.swift in Sources */,
+				D9485C26295D5D8A0094FF28 /* Alerts.swift in Sources */,
 				D9D68F2728FD433D00F062D0 /* Elements.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
