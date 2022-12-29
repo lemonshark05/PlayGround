@@ -12,14 +12,13 @@ final class GameViewModel: ObservableObject {
                                GridItem(.flexible()),
                                GridItem(.flexible())]
     @Published var moves:[Move?] = Array(repeating: nil, count: 9)
-    @Published var isHumanTurn = true
     @Published var isGameboardDisabled = false
     @Published var alertItem: AlertItem?
     
     func processPlayerMove(for position: Int) {
         if isSquareOccupied(in: moves,forIndex: position){ return }
-        moves[position] = Move(player: isHumanTurn ? .human:.computer, broadIndex: position)
-        isGameboardDisabled = true
+        moves[position] = Move(player: .human, broadIndex: position)
+//        isGameboardDisabled = true
 
         if checkWinCondition(for: .human, in: moves) {
             alertItem = AlertContext.humanWin
